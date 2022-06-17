@@ -1,3 +1,12 @@
+Primary color--#000088
+secondary color--#FA500
+
+grey-#898989
+error--#FDBE00
+WARNING--#EF2626
+SUCESS-#27AE60
+INFO-#0A65E0
+
 #454545
 #f2c472
 #ffA500 
