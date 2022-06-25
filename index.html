@@ -9,25 +9,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/doit logo.png" sizes="32x32" type="images/png">
     <link rel="stylesheet" href="style.css">
-
-    <title>Do It landing page</title>
+   <title>Do It landing page</title>
 </head>
 <body>
     <header id="header">
-        <nav>
+        <div class="header-container">
+            <div class="sub-container">
+        <nav class="nav-bar">
             <ul class="nav-links">
-                <li><a href="#"> My Activties</a></li>
-                <li><a href="#"> My Task</a></li>
-                <li><a href="#"> My Dashboard </a></li>
-                <li><a href="#"> Project</a></li>
-                <li><a href="#"> Teams</a></li>
+                <li class="links"><a href="#"> My Activties</a></li>
+                <li class="links"><a href="#"> My Task</a></li>
+                <li class="links"><a href="#"> My Dashboard </a></li>
+                <li class="links"><a href="#"> Project</a></li>
+                <li class="links"><a href="#"> Teams</a></li>
+                <li class="links signin"><a href="#"> Signup/sign in</a></li>
             </ul>
-           
+            <img src="img/doit logo.png" alt="Do IT logo" class="logo">
+            <button class="btn" >Sign up / Sign in </button>
+            <div class="hamburger ">
+               <span class="bar "></span>
+               <span class="bar "></span>
+               <span class="bar "></span>
+            </div>
         </nav>
-        <img src="img/doit logo.png" alt="Do IT logo" class="logo">
-        <button class="btn"> <a href="#"> Sign up </a>/<a href="#"> Sign in</a> </button>
-        
+            </div>
+        </div>
     </header>
+   
+    
     <div class="hero-section">
         <div class="hero-content">
             <div class="hero-writeup">
@@ -36,16 +45,17 @@
                     planning <span class= bluebtn><button class="organize">
                         <a href="#"><p>Organize</p></a></button></span>
                 </h1>
-                <p> DOIT is a simple and easy touse task organising tool.
+                <div class="doit-smalltext">
+                <p> DOIT is a simple and easy to use task organising tool.
                     It is designed to <br>  help others stick to goals and facilitates
                    easy collaboration and project<br> managements.
             
-               </p>
+               </p></div>
          
                <div class="hero-button">
-                <button class="get-started">
+                <button class="btn2">
                     <a href="#">Get Started <img src= "img/Arrow 3.png" alt=""></a></button>
-                    <button class="watch">
+                    <button class="btn2">
                     <a href="#"><img src= "img/play-circle.png" alt="" class="video-icon">
                     Watch Video</a></button>
                </div>
@@ -65,6 +75,8 @@
             </span>
      </div>
         </div>
+    </div>
+    
 
  <div class="feature-section">
     <div class="feature-inner">
@@ -149,7 +161,7 @@
                         </div>
         </div>
     
-        <div class="container">
+        <div class="img-container">
             <div class="img-bg">
                 <img src="img/Girl With bag pack.png" alt="">
             </div>
@@ -193,7 +205,7 @@
                   <div class="collaboration">
                     <div class="text">
                     <h1> Share your work and collborate <br>
-                        on projects with friends
+                        on projects with friends <hr>
                         </h1>
                         <p> Have conversations any time you need with your <br>
                             friends and collegues     
@@ -212,7 +224,7 @@
                 <ul class="footer-text">
                 <a href="#"> <li><h4>Resources</h4></li></a>
                     <a href="#"> <li>Download</li></a>
-                      <a href="#"><li>Help crnter</li></a>
+                      <a href="#"><li>Help center</li></a>
                         <a href="#"> <li>Guides</li></a>
                             <a href="#"><li>Blogs</li>
                                 <a href="#"><li>plans</li></a>
@@ -241,7 +253,8 @@
                     <a href="#"> <li><h4>Subscribe</h4></li></a>
                     <li><div class="email-container">
                         <input type="email" class="inputfield" placeholder="Email Address...">
-                    <button type="submit" id="submit"><img src="img/Arrow 4.png" alt="" class="arrow4"></button></div></li>
+                   <a href=""><button type="submit" id="submit"><img src="img/Arrow 4.png" alt="" class="arrow4">
+                   </button></div></li></a>
                     <li>8/10 <br>
                         Overall rating
                     </li>
@@ -253,74 +266,15 @@
                     
                     
                 </ul>
+            </div>
+            
 
             </div>
+            
 
         </footer>
-    <!--My Activties
-    My Tasks
-    Dashboard
-    Project 
-    Teams 
-    Sign up / Sign in 
+<script src="script.js"></script>
+
     
-    Achieve more 
-    with seamless
-    planning
-    organize
-
-    DOIT is a simple and easy to use task organising tool.
-     It is designed to help others stick to goals and facilitates
-    easy collaboration and project managements.
-
-    Design for five
-       hours
-   Read 100 Thing 
-    About Design
-
-    Feature
-    Our Awesome Features
-
-    Mangage your task and 
-work tools with ease
-Create Task
-Create different tasks and get them
- done with your friends.
-
- Sign Up
- Make an account and login to keep yourself
-updated on the users platform.
-
-Share Achievements
-Upload and share  updated with 
-your friends or collegues.
-
-Study UX companion
-Redesign Stanbic IBTC
-Mobile Banking App
-Website with Lawal  
-
-Carry out User Research
-Draft User Persona and 
-Draw Paper Wireframe
- before deadline.
-
- We love DOiT a lot, it helps us share
-our tasks and work progress which makes
- our jobs easy and enjoyable    - Mofi and Kemi
-
- Share your work and collborate 
-on projects with friends
-Have conversations any time you need with your
-friends and collegues
-
-With one single click you can 
-enjoy work with ease.
-
-Resources
-Company
-Support Us
-Subscribe -->
-
 </body>
 </html>
